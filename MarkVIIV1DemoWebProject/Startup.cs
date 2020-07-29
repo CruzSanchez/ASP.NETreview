@@ -34,6 +34,7 @@ namespace MarkVIIV1DemoWebProject
             });
 
             services.AddTransient<IProductRepository, ProductRepository>();
+
             services.AddControllersWithViews();
         }
 
